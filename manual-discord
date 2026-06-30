@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía del Discord | AlbaOpotoleando</title>
+    <style>
+        :root {
+            --bg-color: #313338;
+            --container-bg: #2b2d31;
+            --text-main: #dbdee1;
+            --text-title: #f2f3f5;
+            --accent: #5865F2; /* Discord Blurple */
+            --accent-hover: #4752c4;
+            --success: #23a559;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--container-bg);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid #1e1f22;
+        }
+        h1, h2, h3 { color: var(--text-title); }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; color: #b5bac1; max-width: 600px; margin: 0 auto; }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background-color: var(--container-bg);
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .step-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent);
+            margin-top: 0;
+        }
+        .channel-tag {
+            background-color: #3f4147;
+            color: #d1d2d3;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        
+        .important-box {
+            background-color: rgba(35, 165, 89, 0.1);
+            border-left: 4px solid var(--success);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .btn:hover { background-color: var(--accent-hover); }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #80848e;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>📚 Discord de AlbaOpotoleando</h1>
+        <p>Tu biblioteca virtual 24/7. Descubre cómo configurar tu cuenta, acceder a las salas de estudio y unirte a la comunidad.</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2 class="step-title">1️⃣ Primeros pasos: Tu Perfil</h2>
+            <p>Para mantener el servidor seguro y organizado, usamos un sistema de roles automáticos. Cuando entres, esto es lo primero que debes hacer:</p>
+            <ul>
+                <li>Ve al canal <span class="channel-tag">#📌-solicitar-roles</span>.</li>
+                <li><strong>No se puede escribir en el chat</strong>. Solo tienes que hacer clic en los emojis debajo del mensaje del bot.</li>
+                <li>Selecciona tu oposición, tu etapa académica o tu situación laboral. ¡Al instante se te asignarán los canales correspondientes!</li>
+            </ul>
+            <div class="important-box">
+                <strong>💡 VINCULA TU TWITCH:</strong> Para que los canjeos del stream funcionen automáticamente, ve en Discord a <em>Ajustes de usuario > Conexiones</em> y vincula tu cuenta de Twitch.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="step-title">2️⃣ Zonas de Estudio y Pomodoros 🍅</h2>
+            <p>El corazón de nuestra comunidad. Tenemos distintas salas de voz adaptadas a tus ritmos de concentración:</p>
+            <ul>
+                <li><strong>Salas Pomodoro (90/15, 75/10, 60/10, Personalizada):</strong> Aquí estudiamos en silencio usando el método Pomodoro. El nombre del canal indica el tiempo de estudio y el tiempo de descanso.</li>
+                <li><strong>La Mesa de Stream:</strong> 📹🟣 #cámara-estudio TWITCH ¿Quieres acompañarme en directo? Canjea en Twitch el acceso a la cámara y únete al canal de voz de la mesa de grabación.</li>
+            </ul>
+            <p><em>*Recuerda: Para acceder a las salas de voz, debes canjear la recompensa correspondiente con tus puntos del canal en Twitch. Alba te dará el rol en cuanto vea el aviso.</em></p>
+        </div>
+
+        <div class="card">
+            <h2 class="step-title">3️⃣ Canales Especiales que debes conocer</h2>
+            <p>No todo es hincar codos. Tienes espacios para desconectar, celebrar y llorar un poco si hace falta:</p>
+            <ul>
+                <li><span class="channel-tag">#😭・la-llorería-opositil</span>: El rincón para maldecir el temario y soltar frustraciones. Todo es válido, te entendemos.</li>
+                <li><span class="channel-tag">#✨・muro-del-orgullo</span>: Aquí el bot anuncia automáticamente cuando ganas una nueva insignia del canal.</li>
+                <li><span class="channel-tag">#🎉・plaza-conseguida</span>: El salón de la fama. Si apruebas tu oposición, canjéalo en Twitch y celebraremos tu plaza por todo lo alto.</li>
+                <li><span class="channel-tag">#👋-presentaciones</span>: Un foro para que te presentes siguiendo la plantilla. ¡Queremos conocerte!</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2 class="step-title">❓ Preguntas Frecuentes (FAQ)</h2>
+            <p><strong>¿Por qué no veo algunos canales?</strong><br>
+            Asegúrate de haber seleccionado tus roles en <span class="channel-tag">#📌-solicitar-roles</span>. Si sigues sin verlos, revisa si es una sala exclusiva de canjeo de Twitch.</p>
+            
+            <p><strong>He canjeado un acceso en Twitch y no me deja entrar</strong><br>
+            La asignación a veces es manual para mantener la seguridad. Alba recibe un aviso privado y te da el acceso lo antes posible. ¡Ten paciencia, estás en buenas manos!</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>¡Mucho ánimo con el estudio! Nos vemos entre libros y pomodoros. 🍅💚</p>
+    </div>
+
+</body>
+</html>
